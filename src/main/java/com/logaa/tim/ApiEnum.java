@@ -90,7 +90,10 @@ public enum ApiEnum {
 
 	// 全局禁言
 	setnospeaking("v4/openconfigsvr/setnospeaking"),  // 设置全局禁言
-	getnospeaking("v4/openconfigsvr/getnospeaking");  // 查询全局禁言
+	getnospeaking("v4/openconfigsvr/getnospeaking"),  // 查询全局禁言
+	
+	// 运营相关
+	getappinfo("v4/openconfigsvr/getappinfo");	// 拉取运营数据
 	
 	private final static String BASE_URL = "https://console.tim.qq.com/";
 	
