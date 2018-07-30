@@ -1,2 +1,2 @@
 # TIM
-腾讯TIM Java版SDK
+:rabbit: 腾讯TIM Java版SDK
