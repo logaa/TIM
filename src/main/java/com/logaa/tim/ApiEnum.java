@@ -1,8 +1,12 @@
 package com.logaa.tim;
 
+/**
+ * 接口地址
+ * @author logaa
+ *
+ */
 public enum ApiEnum {
 
-	
 	// 账号管理
 	account_import("v4/im_open_login_svc/account_import"),  // 独立模式帐号导入
 	multiaccount_import("v4/im_open_login_svc/multiaccount_import"),  // 独立模式帐号批量导入
@@ -51,6 +55,7 @@ public enum ApiEnum {
 	delete_group_msg_by_sender("v4/group_open_http_svc/delete_group_msg_by_sender"),  // 删除指定用户发送的消息	
 	search_group("v4/group_open_http_svc/search_group"),  // 搜索	
 	group_msg_get_simple("v4/group_open_http_svc/group_msg_get_simple"),  // 拉取群漫游消息	
+	group_msg_recall("v4/group_open_http_svc/group_msg_recall"),  // 群组消息撤回	
 
 	// 用户资料
 	portrait_get("v4/profile/portrait_get"),  // 拉取资料	
