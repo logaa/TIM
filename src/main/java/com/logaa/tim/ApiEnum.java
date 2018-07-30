@@ -64,6 +64,7 @@ public enum ApiEnum {
 	// 关系链
 	friend_add("v4/sns/friend_add"),  // 添加好友	
 	friend_import("v4/sns/friend_import"),   // 导入好友	
+	friend_update("v4/sns/friend_update"),   // 更新好友	
 	friend_delete("v4/sns/friend_delete"),   // 删除好友	
 	friend_delete_all("v4/sns/friend_delete_all"),  // 删除所有好友	
 	friend_check("v4/sns/friend_check"),   // 校验好友	
